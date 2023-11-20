@@ -1,46 +1,69 @@
-header {
+body{
+    margin: auto;
+}
+
+header{
     background-image: url('../img/pattern.png');
-    /*background-repeat: repeat-x;*/
     background-size: 200px;
     background-color: rgb(31, 153, 252);
     padding-top: 20px;
 }
 
-#logo {
+#logo{
     width: 100px;
 }
 
-#site {
+#site{
     color: rgb(31 153 252);
     text-decoration: none;
     font-size: small;
 }
 
-.grey {
+.grey{
     color: grey;
     font-size: small;
 }
 
-figure {
+figure{
     margin: auto;
 }
 
-.tim {
+.tim{
     height: 200px;
 }
 
-figcaption {
+figcaption{
     font-size: small;
 }
 
-.yellowbackground {
+.yellowbackground{
     background-color: yellow;
 }
 
-thead {
-    background-color: rgb(31 153 252);
+table{
+    border-spacing: 0;
 }
 
-.lightblue {
+thead{
+    background-color: rgb(31 153 252);
+    color: white;
+}
+
+.lightblue{
     background-color: rgb(111, 214, 214);
+}
+
+#img1, #img2{
+    color: white;
+    height: 200px;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+#img1{
+    background-image: url('../img/graph.jpg');
+}
+
+#img2{
+    background-image: url('../img/monitor.jpg');
 }
