@@ -1,5 +1,6 @@
 body{
-    margin: auto;
+    /*margin: auto;*/
+    font-family: 'Merriweather', serif;
 }
 
 header{
@@ -9,8 +10,17 @@ header{
     padding-top: 20px;
 }
 
+h1{
+    margin-bottom: 0;
+}
+
+.sss{
+    margin-bottom: 15px;
+}
+
 #logo{
     width: 100px;
+    margin-left: 5px;
 }
 
 #site{
@@ -25,15 +35,19 @@ header{
 }
 
 figure{
-    margin: auto;
+    margin: 20px 0 0 0;
 }
 
 .tim{
-    height: 200px;
+    height: 247px;
 }
 
 figcaption{
     font-size: small;
+}
+
+ul{
+    padding: 15px;
 }
 
 .yellowbackground{
@@ -62,8 +76,14 @@ thead{
 
 #img1{
     background-image: url('../img/graph.jpg');
+    margin-bottom: 0;
 }
 
 #img2{
     background-image: url('../img/monitor.jpg');
+    margin-top: 0;
+}
+
+footer{
+    margin-top: 40px;
 }
