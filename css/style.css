@@ -32,3 +32,15 @@ figure {
 figcaption {
     font-size: small;
 }
+
+.yellowbackground {
+    background-color: yellow;
+}
+
+thead {
+    background-color: rgb(31 153 252);
+}
+
+.lightblue {
+    background-color: rgb(111, 214, 214);
+}
