@@ -9,3 +9,26 @@ header {
 #logo {
     width: 100px;
 }
+
+#site {
+    color: rgb(31 153 252);
+    text-decoration: none;
+    font-size: small;
+}
+
+.grey {
+    color: grey;
+    font-size: small;
+}
+
+figure {
+    margin: auto;
+}
+
+.tim {
+    height: 200px;
+}
+
+figcaption {
+    font-size: small;
+}
