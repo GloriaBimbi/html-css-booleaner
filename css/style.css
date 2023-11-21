@@ -1,9 +1,16 @@
 body{
-    /*margin: auto;*/
+    margin: 0;
     font-family: 'Merriweather', serif;
 }
 
-header{
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.page-header{
     background-image: url('../img/pattern.png');
     background-size: 200px;
     background-color: rgb(31, 153, 252);
@@ -29,9 +36,10 @@ h1{
     font-size: small;
 }
 
-.grey{
+.text-muted{
     color: grey;
     font-size: small;
+    font-style: normal;
 }
 
 figure{
@@ -55,7 +63,7 @@ ul{
 }
 
 table{
-    border-spacing: 0;
+    border-collapse: collapse;
 }
 
 thead{
